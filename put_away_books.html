@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>お片付けゲーム</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/tetris.css">
+    <script type="text/javascript" src="js/tetris.js"></script>
+  </head>
+  <body>
+    <h1></h1>地底図書館
+    <div class="wrapper-container">
+        <span class="tetris-container">
+            <canvas id="stage" width="250px" height="500px" style="background-color:black;">
+            </canvas>
+            
+        </span>
+    </div>
+    <script>
+      var tetris = new Tetris();
+      tetris.startGame();
+    </script>
+  </body>
+</html>
